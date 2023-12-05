@@ -165,6 +165,11 @@ body{
     height: 55px;
     transition: 1s;
 }
+.logoinsta{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
 .buts {
     margin-top: -30px;
     background-color: black;
@@ -177,7 +182,12 @@ body{
     box-shadow: 2px 2px 10px 5px rgb(166, 30, 109);
     font-weight: bold;
     color: orange;
+    transition: 1s;
     font-family: 'Kanit', sans-serif;
+}
+.buts:hover{
+    background-color: rgb(58, 0, 43);
+    transition: 500ms;
 }
 .conteudo {
     background-color: black;

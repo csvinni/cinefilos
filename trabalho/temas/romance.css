@@ -176,8 +176,13 @@ body{
     border-radius: 15px;
     box-shadow: 2px 2px 10px 5px rgb(166, 30, 109);
     font-weight: bold;
+    transition: 1s;
     color: orange;
     font-family: 'Kanit', sans-serif;
+}
+.buts:hover{
+    background-color: rgb(58, 0, 43);
+    transition: 500ms;
 }
 .conteudo {
     background-color: black;
@@ -248,7 +253,11 @@ body{
 .paragrafooscar{
     margin-left: 15px;
 }
-
+.logoinsta{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
 .titulooscar{
     font-size: 45px;
     font-family: 'Kanit', sans-serif;
@@ -256,6 +265,7 @@ body{
 }
 
 .textooscar{
+    color: white;
     text-align: justify;
     margin-right: 30px;
 }
